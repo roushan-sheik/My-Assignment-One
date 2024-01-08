@@ -180,6 +180,7 @@ main {
 .comming_soon {
   display: flex;
   gap: 50px;
+  justify-content: space-around;
 }
 /* comming soon content box style  */
 .comming_soon_content {
@@ -208,16 +209,44 @@ main {
 }
 /* comming soon image box style  */
 .comming_soon_img {
-  border: 15px solid var(--primary-red);
-  border-radius: 463px;
+  /* border: 15px solid var(--primary-red); */
+  /* border-radius: 463px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 35px;
+  margin-right: 50px;
 }
 .comming_soon_img img {
   width: 364px;
   height: 364px;
   border-radius: 463px;
+  padding: 35px;
+  outline: 15px solid var(--primary-red);
 }
- /* <!-- comming soon year image box style  --> */
+/* <!-- comming soon year image box style  --> */
+
+.comming_soon_year {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comming_soon_year h1 {
+  padding-top: 180px;
+  color: var(--primary-red);
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--primary_font);
+  margin-bottom: 16px;
+}
+.comming_soon_year p {
+  color: #07021199;
+  font-family: var(--primary_font);
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 43px;
+}
+.comming_soon_year img {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}

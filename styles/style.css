@@ -343,6 +343,27 @@ main {
   left: -110px;
   width: 206.841px;
   height: 206.841px;
+  /* transition: all 2s ease; */
+  animation-name: discount;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+/* >>>>>>>>>>>>Hover effect<<<<<<<<<< */
+/* .what_is_functional:hover .discount_img {
+  transform: rotate(360deg);
+} */
+/* >>>>>>>>>>>>Animation<<<<<<<<<< */
+@keyframes discount {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    scale: 1.1;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* bottom red  img box  */

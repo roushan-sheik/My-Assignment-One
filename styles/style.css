@@ -14,6 +14,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  width: 85%;
+  margin: auto;
+}
 /* ==========> Reuses class <========== */
 .btn {
   padding: 16px 32px;
@@ -60,11 +64,11 @@
 }
 /* ===========> New Year section related styles <=========== */
 .new_year {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85%;
   margin: 100px auto;
 }
 .new_year_content_box > h1 {
@@ -98,9 +102,9 @@
 }
 /* ===========> Nitht party section related styles <=========== */
 .night_party {
+  width: 100%;
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/pictures/Vectorrr.png");
-  width: 85%;
   margin: 50px auto;
   padding: 126px;
   border-radius: 16px;
@@ -140,3 +144,36 @@
 }
 
 /* ===========> Nitht party info section related styles <=========== */
+.party_info {
+  display: flex;
+  padding: 100px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 120px 0;
+  border-radius: 16px;
+}
+
+.party_info h2 {
+  text-align: center;
+  font-family: var(--primary_font);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+}
+.party_info span {
+  color: var(--primary-red);
+}
+.party_info > button {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--primary_font);
+  color: #fff;
+  margin-top: 48px;
+}

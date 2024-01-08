@@ -3,7 +3,8 @@
 
 /* ==========> Reuse variables <========== */
 :root {
-  --primary-red: #f00;
+  --primary-red: #22a699;
+  /* --primary-red: #f00; */
   --secondary-black: #070211;
   --primary_font: "Inter";
   --secondary_font: "Merriweather";
@@ -22,8 +23,9 @@ main {
 .btn {
   padding: 16px 32px;
   border-radius: 8px;
-  background: #f00;
+  background: var(--primary-red);
   border: none;
+  cursor: pointer;
 }
 
 /* ===========> Hero Section Banner related styles <=========== */
@@ -434,6 +436,7 @@ main {
   background-color: var(--primary-red);
   border-radius: 0px 50px 50px 0px;
   border: none;
+  cursor: pointer;
 }
 
 /* ===========> Footer section related styles <=========== */
@@ -447,7 +450,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.foote_title h3 {
+.footer_title h3 {
   color: #fff;
   font-size: 24px;
   font-family: var(--primary_font);

@@ -126,6 +126,10 @@ main {
 .year_svg {
   width: 319px;
   height: 464px;
+  transition: all 3s ease;
+}
+.night_party:hover .year_svg {
+  transform: rotate(360deg);
 }
 
 .night_party_content_box h1 {

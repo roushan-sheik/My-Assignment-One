@@ -19,6 +19,7 @@
   padding: 16px 32px;
   border-radius: 8px;
   background: #f00;
+  border: none;
 }
 
 /* ===========> Hero Section Banner related styles <=========== */
@@ -137,3 +138,5 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* ===========> Nitht party info section related styles <=========== */

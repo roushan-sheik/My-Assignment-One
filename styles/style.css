@@ -95,3 +95,45 @@
   height: 500px;
   flex-shrink: 0;
 }
+/* ===========> Nitht party section related styles <=========== */
+.night_party {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/pictures/Vectorrr.png");
+  width: 85%;
+  margin: 50px auto;
+  padding: 126px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.year_svg {
+  width: 319px;
+  height: 464px;
+}
+
+.night_party_content_box h1 {
+  color: #fff;
+  font-family: var(--secondary_font);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.night_party_content_box p {
+  color: #ffffffcc;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: var(--primary_font);
+  margin-bottom: 48px;
+}
+.night_party_content_box button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -374,3 +374,64 @@ main {
   width: 100%;
   height: 100%;
 }
+/* ===========> Subscribe newsletter section related styles <=========== */
+.subscribe_news {
+  margin: 120px 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 100px;
+}
+.subscribe_parent,
+.content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content_box {
+  display: flex;
+  justify-content: center;
+}
+.content_box img {
+  margin-bottom: 40px;
+}
+.content_box h1 {
+  font-size: 48px;
+  font-family: var(--secondary_font);
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.content_box p {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--primary_font);
+  line-height: 32px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.input_subscribe {
+  display: flex;
+}
+.input_subscribe input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 18px;
+  font-family: var(--primary_font);
+}
+.input_subscribe input {
+  width: 520px;
+  padding: 24px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+}
+.input_subscribe button {
+  width: 250px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 24px 56px;
+  background-color: var(--primary-red);
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+}

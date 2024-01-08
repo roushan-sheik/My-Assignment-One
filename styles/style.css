@@ -1,9 +1,12 @@
 /* Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap");
 
 /* ==========> Reuse variables <========== */
 :root {
-  --primary: #f00;
+  --primary-red: #f00;
+  --secondary-black: #070211;
+  --primary_font: "Inter";
+  --secondary_font: "Merriweather";
 }
 /* ==========> Global CSS <========== */
 * {
@@ -40,14 +43,14 @@
   align-items: center;
 }
 .banner_box > p {
-  font-family: Merriweather;
+  font-family: var(--secondary_font);
   font-size: 32px;
   color: #fff;
   text-align: center;
   margin-bottom: 16px;
 }
 .banner_box > h2 {
-  font-family: Merriweather;
+  font-family: var(--secondary_font);
   font-size: 72px;
   line-height: 95px;
   font-weight: 900;
@@ -56,9 +59,39 @@
 }
 /* ===========> New Year section related styles <=========== */
 .new_year {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 85%;
-  margin: auto;
+  margin: 100px auto;
 }
-.new_year_content_box h1 {
-  color: var(--primary);
+.new_year_content_box > h1 {
+  color: var(--primary-red);
+  font-family: var(--primary_font);
+  font-size: 88px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.new_year_content_box > p {
+  color: var(--primary-red);
+  font-family: var(--primary_font);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.new_year_content_box > h2 {
+  color: var(--primary-black);
+  font-family: var(--primary_font);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.new_year_image {
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
 }

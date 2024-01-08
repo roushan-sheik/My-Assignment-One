@@ -1,5 +1,9 @@
 /* Font Family */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+/* ==========> Reuse variables <========== */
+:root {
+  --primary: #f00;
+}
 /* ==========> Global CSS <========== */
 * {
   margin: 0;
@@ -7,8 +11,10 @@
   box-sizing: border-box;
 }
 /* ==========> Reuses class <========== */
-.primary {
-  color: #f00;
+.btn {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
 }
 
 /* ===========> Hero Section Banner related styles <=========== */
@@ -46,4 +52,12 @@
   font-weight: 900;
   text-align: center;
   color: #fff;
+}
+/* ===========> New Year section related styles <=========== */
+.new_year {
+  width: 85%;
+  margin: auto;
+}
+.new_year_content_box h1 {
+  color: var(--primary);
 }

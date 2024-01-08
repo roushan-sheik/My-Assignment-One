@@ -26,6 +26,12 @@ main {
   background: var(--primary-red);
   border: none;
   cursor: pointer;
+  transition: 0.4s ease;
+}
+.btn:hover {
+  background: #0fffe770;
+  border: 2px solid #3af3e0;
+  color: black;
 }
 
 /* ===========> Hero Section Banner related styles <=========== */

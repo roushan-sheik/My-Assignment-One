@@ -250,3 +250,40 @@ main {
   height: 140px;
   flex-shrink: 0;
 }
+/* <!-- comming soon year image box style  --> */
+.what_is_functional {
+  margin: 120px 0;
+}
+.func_top_content_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.func_top_content_box > h3 {
+  color: #070211;
+  font-family: var(--primary_font);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.func_top_content_box > h1 {
+  color: var(--primary-red);
+  font-size: 72px;
+  font-family: var(--secondary_font);
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.func_top_content_box > h1 > span {
+  color: #070211;
+}
+
+.func_top_content_box > p {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  font-family: var(--primary_font);
+  text-align: center;
+}

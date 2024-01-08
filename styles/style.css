@@ -435,3 +435,83 @@ main {
   border-radius: 0px 50px 50px 0px;
   border: none;
 }
+
+/* ===========> Footer section related styles <=========== */
+footer {
+  background: #070211;
+  flex-shrink: 0;
+  padding: 94px 140px;
+  color: #fff;
+}
+.footer_top_content_box {
+  display: flex;
+  justify-content: space-between;
+}
+.foote_title h3 {
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--primary_font);
+  font-weight: 500;
+  line-height: 40px;
+}
+/* phone and website  */
+/* we can use 2 classes toghether  */
+.call_parent,
+.web_parent {
+  color: #fff;
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+.call_parent img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+/* .web_parent {
+  color: #fff;
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+} */
+.web_parent img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+/* Footer icons */
+.footer_icon_box {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer_icon_box img {
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+}
+.footer_bottom_content_box {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_bottom_content_box > h3,
+.footer_bottom_content_box > button {
+  font-size: 24px;
+  color: #fff;
+  font-family: var(--primary_font);
+  font-weight: 500;
+}
+.footer_bottom_content_box > button {
+  border: none;
+  background: #070211;
+  cursor: pointer;
+}

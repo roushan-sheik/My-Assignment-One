@@ -158,7 +158,6 @@ main {
   margin: 120px 0;
   border-radius: 16px;
 }
-
 .party_info h2 {
   text-align: center;
   font-family: var(--primary_font);
@@ -177,3 +176,48 @@ main {
   color: #fff;
   margin-top: 48px;
 }
+/* ===========> Comming soon section related styles <=========== */
+.comming_soon {
+  display: flex;
+  gap: 50px;
+}
+/* comming soon content box style  */
+.comming_soon_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comming_soon_content h2 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--primary_font);
+  color: var(--primary-red);
+  margin-bottom: 16px;
+}
+.comming_soon_content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  font-family: var(--secondary_font);
+  margin-bottom: 22px;
+}
+.comming_soon_content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  line-height: 32px;
+}
+/* comming soon image box style  */
+.comming_soon_img {
+  border: 15px solid var(--primary-red);
+  border-radius: 463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+.comming_soon_img img {
+  width: 364px;
+  height: 364px;
+  border-radius: 463px;
+}
+ /* <!-- comming soon year image box style  --> */

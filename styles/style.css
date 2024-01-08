@@ -21,12 +21,13 @@ main {
 }
 /* ==========> Reuses class <========== */
 .btn {
-  padding: 16px 32px;
+  padding: 15px 31px;
   border-radius: 8px;
   background: var(--primary-red);
   border: none;
   cursor: pointer;
   transition: 0.4s ease;
+  border: 2px solid var(--primary-red);
 }
 .btn:hover {
   background: #0fffe770;

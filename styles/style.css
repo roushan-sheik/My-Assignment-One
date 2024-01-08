@@ -280,10 +280,59 @@ main {
 }
 
 .func_top_content_box > p {
-  color: rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
   font-family: var(--primary_font);
   text-align: center;
+  margin-bottom: 64px;
+}
+/*<<<<<<<<<<< bottom image container >>>>>> */
+.bottom_img_container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.top_img_box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+/* empty left site white div  */
+.empty_div {
+  height: 433px;
+  min-width: 510px;
+  position: relative;
+}
+.gift-box {
+  position: absolute;
+  bottom: -180px;
+  left: 30px;
+  width: 470px;
+  height: 500px;
+}
+/* wow girl right side div  */
+.wow_girl {
+  background: url("../images/pictures/Rectangle\ 1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  min-height: 433px;
+  position: relative;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.discount_img {
+  position: absolute;
+  top: 200px;
+  left: -110px;
+  width: 206.841px;
+  height: 206.841px;
+}
+
+/* bottom red  img box  */
+.bottom_img_box img {
+  width: 100%;
 }
